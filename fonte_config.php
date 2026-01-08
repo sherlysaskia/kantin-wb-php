@@ -1,0 +1,4 @@
+<?php
+// TOKEN FONNTE (JANGAN DIBAGIKAN KE SIAPA PUN)
+$fonte_token = "adFw2L345YSW2CxXL43J";
+?>
