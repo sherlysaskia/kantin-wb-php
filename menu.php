@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "koneksi.php";
+include "./database/koneksi.php";
 
 // ====== LOGIN CEK ======
 if (!isset($_SESSION['login'])) {

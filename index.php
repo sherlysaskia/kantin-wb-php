@@ -168,7 +168,7 @@
 
 <!-- 🌄 Header -->
 <header>
-    <img src="/kantin/bg4.jpg" alt="Kantin Background">
+    <img src="/assets/bg4.jpg" alt="Kantin Background">
     <div class="overlay"></div>
     <div class="content">
         <h1>🍴 Selamat Datang di Kantin Freshsweety</h1>

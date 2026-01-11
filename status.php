@@ -1,5 +1,5 @@
 <?php
-include "koneksi.php";
+include "./database/koneksi.php";
 session_start();
 
 if (isset($_GET['id']) && isset($_GET['s'])) {

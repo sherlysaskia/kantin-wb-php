@@ -1,5 +1,5 @@
 <?php
-include "koneksi.php";
+include "./database/koneksi.php";
 session_start();
 
 error_reporting(E_ALL);

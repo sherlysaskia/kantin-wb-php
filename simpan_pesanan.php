@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.php';
+include './database/koneksi.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id_menu = $_POST['id_menu'];

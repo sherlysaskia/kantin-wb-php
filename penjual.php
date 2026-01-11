@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "koneksi.php";
+include "./database/koneksi.php";
 
 // cek apakah penjual sudah login
 if (!isset($_SESSION['penjual'])) {

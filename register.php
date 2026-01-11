@@ -1,5 +1,5 @@
 <?php
-include "koneksi.php";
+include "./database/koneksi.php";
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

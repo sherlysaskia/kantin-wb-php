@@ -1,0 +1,17 @@
+[phases.setup]
+nixPkgs = ["php82", "php82Packages.composer"]
+
+[phases.install]
+cmds = [
+    "mkdir -p uploads/menu",
+    "chmod -R 777 uploads"
+]
+
+[phases.build]
+cmds = []
+
+[start]
+cmd = "php -S 0.0.0.0:8080 -t ."
+
+[variables]
+PORT = "8080"

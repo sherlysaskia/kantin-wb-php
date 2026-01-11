@@ -1,5 +1,5 @@
 <?php
-require 'koneksi.php';
+require './database/koneksi.php';
 
 // ambil pesanan terakhir yang status Selesai
 $sql = "
